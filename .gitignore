@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Local secrets — never commit real credentials
+.env
+config/config.inc.php
+
+# Logs generated during testing
+audit_log.txt
+security_logs.txt
